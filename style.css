@@ -1,10 +1,11 @@
 container {
     padding: 50px 10%;
 }
-
+body{
+    background-color: black;
+}
 .box {
     position: relative;
-    background: #ffffff;
     width: 100%;
 }
 
@@ -24,10 +25,13 @@ container {
 }
 
 .dropzone-wrapper {
-    border: 2px dashed #91b0b3;
-    color: #92b0b3;
+    border: 2px dashed #000000;
+    color: #000000;
     position: relative;
     height: 150px;
+    border-radius: 3rem;
+    background: #B6F406;
+    width: 390px;
 }
 
 .dropzone-desc {
@@ -36,11 +40,62 @@ container {
     left: 0;
     right: 0;
     text-align: center;
-    width: 40%;
     top: 50px;
     font-size: 16px;
 }
 
+.border-st {
+    border-style:solid;
+    border-color: black;
+}
+
+.rounded-class {
+
+    border-radius: 1.6rem;
+}
+
+.bg-error {
+    background-color: #FFBEAA;
+}
+
+.bg-success-custom {
+    background-color: #0f6387;
+}
+
+.progress-error {
+    background-color: #871010;
+}
+
+.txt-error {
+    font-weight: 700;
+    color: #871010;
+}
+
+.m-top {
+    margin-top: -1rem;
+}
+.m-top-c {
+    margin-top: -2rem;
+}
+
+.font-med {
+    font-size: 1.8rem;
+}
+
+.font-small {
+    font-size: 1.4rem;
+}
+
+.font-xs {
+    font-size: 2.5rem;
+}
+
+.bg-color-purple {
+    background-color: #871074;
+}
+.btn-danger-new{
+    background-color: chartreuse;
+}
 .dropzone,
 .dropzone:focus {
     position: absolute;
